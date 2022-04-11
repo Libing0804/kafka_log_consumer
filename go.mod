@@ -11,9 +11,12 @@ require (
 	github.com/frankban/quicktest v1.14.3 // indirect
 	github.com/go-ini/ini v1.66.4
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.1 // indirect
+	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 )

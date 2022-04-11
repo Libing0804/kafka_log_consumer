@@ -40,8 +40,8 @@ func Init(addr string,index string,maxSize,goroutineNum int)(err error){
 func sendToEs(){
 
 	for msg:=range esClient.LogDataChan{
-
 		put1,err :=esClient.client.Index().Index(esClient.index).BodyJson(msg).Do(context.Background())
+
 		if err!=nil{
 			logrus.Error("msg send to es failed err:",err)
 			continue
